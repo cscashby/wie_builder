@@ -4,8 +4,8 @@
 	::Time Zone Reference http://technet.microsoft.com/en-us/library/cc749073(v=ws.10).aspx
 	set TimeZone=Eastern Standard Time
 	set MyLang=en-us
-	set ComServerURL=http://0.0.0.0/
-	set UniversalToken=
+	set ComServerURL=http://IPADDRESS:8888/
+	set UniversalToken=PASTEUIDHERE
 	set CreateISO=true
 	
 	set PLATFORM=x64
@@ -20,3 +20,4 @@
 	
 	echo Script Complete.
 	pause
+	
